@@ -12,9 +12,9 @@
         </div>
       </article>
       <%if (isAuthor){ %>
-        <a href ="/edit-post/<%= post.id %>" class = "button">Edit Post</a>
+        <a href ="/edit-post/<%= post.id %>" class = "button">Edit</a>
         <form style ="display :inline " action = "/delete-post/<%= post.id %>" method ="POST">
-          <button>Delete Post</button>
+          <button>Delete</button>
         </form>
       <% } %>
 

@@ -5,9 +5,9 @@
     <%- include('includes/header') %>
     <main>
        <% if (posts.length== 0){ %>
-        <h4>Hello, <%= user.username %> you dont have any posts yet.</h4>
+        <h4>Hello, <%= user.username %> you dont have any doubts yet.</h4>
        <% } else{ %>
-        <h4>Hello, <%= user.username %> here are your posts</h4>
+        <h4>Hello, <%= user.username %> here are your doubts ,</h4>
        <% } %>
        <ul>
         <% posts.forEach(post =>{ %>
